@@ -33,6 +33,7 @@
 /* COMMON */
 .container {
   margin-top: 100px;
+  width: 992px;
 }
 .grey {
   background-color: #f9f9f9;
@@ -70,6 +71,7 @@ body {
   }
   .container {
     margin-top: 50px;
+    width: 100%;
   }
   #steps [class*="col-"]:last-of-type {
     margin-top: 30px;
@@ -94,6 +96,7 @@ body {
   }
   .container {
     margin-top: 30px;
+    width: 100%;
   }
   #lezioni [class*="col-"],
   #steps [class*="col-"],
