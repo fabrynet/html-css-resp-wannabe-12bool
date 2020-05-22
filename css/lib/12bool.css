@@ -11,7 +11,7 @@
   display: table;
   clear: both;
 }
-/* colonne */
+/* float left delle colonne */
 [class*="col-xs-"] {
   float: left;
 }
