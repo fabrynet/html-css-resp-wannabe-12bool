@@ -4,3 +4,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* debug */
+.container {
+  background-color: pink;
+}
+.container [class*="col-"] {
+  height: 150px;
+  position: relative;
+  border: 1px solid black;
+}
+.container:last-child > div {
+  padding: 5px;
+}
+.container [class*="col-"] > .container {
+  height: 100%;
+  background-color: lightcoral;
+}
+.container > [class*="col-"] > .container > [class*="col-"] {
+  height: 100%;
+  border-color: white;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /debug */
